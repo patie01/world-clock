@@ -1,12 +1,61 @@
 body {
   background: purple;
-  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 27px 0px;;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 30px;
+}
+.date {
+  opacity: 0.8;
+}
+
+.time {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 26px;
+  vertical-align: middle;
+  line-height: 46px;
+}
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
 }
 
 h1 {
   text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
 }
 
 footer {
   text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
 }
